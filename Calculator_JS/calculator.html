@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+
+</head>
+<body>
+
+    <div class="container">
+
+
+        <h1 style="text-align: center;">Calculator</h1>
+
+        <div class="calculator">
+            
+
+            <div id="display_answer">
+               
+                <div style="color:red;" id="history">
+
+                </div>
+
+                <div id="result">
+
+                </div>
+
+            </div>
+                        <table class="calc_table">
+
+                          
+
+                            <tr>
+                                <td><button class="calc-buttons number" id="7">7</button></td>
+                                <td><button class="calc-buttons number" id="8">8</button></td>
+                                <td><button class="calc-buttons number" id="9">9</button></td>
+                                <td><button class="calc-buttons operator symbol clearall" id="clearall">C</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="calc-buttons number" id="4">4</button></td>
+                                <td><button class="calc-buttons number" id="5">5</button></td>
+                                <td><button class="calc-buttons number" id="6">6</button></td>
+                                <td><button class="calc-buttons operator" id="/">&divide;</button></td>
+                            </tr>
+                            <tr>
+                                <td><button class="calc-buttons number" id="1">1</button></td>
+                                <td><button class="calc-buttons number" id="2">2</button></td>
+                                <td><button class="calc-buttons number" id="3">3</button></td>
+                                <td><button class="calc-buttons operator" id="*">&times;</button></td>
+                            </tr>
+
+                            <tr>
+                                <td><button class="calc-buttons number" id="0">0</button></td>
+                                <td><button class="calc-buttons operator symbol" id="="">&equals;</button></td>
+                                <td><button class="calc-buttons operator" id="-">&minus;</button></td>
+                                <td><button class="calc-buttons operator" id="+">&plus;</button></td>
+                            </tr>
+
+                        </table>
+        </div>
+    </div>
+    
+    <script src="caljs.js"></script>
+
+
+    
+</body>
+</html>
+
+
+
+
+

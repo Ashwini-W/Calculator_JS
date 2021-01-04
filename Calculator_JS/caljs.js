@@ -48,7 +48,7 @@ for(var i=0;i<operator.length;i++){
 var number=document.querySelectorAll(".number");
 for(var i=0;i<number.length;i++){
     number[i].addEventListener('click',function(){
-        alert("the number clicked "+this.id);
+//         alert("the number clicked "+this.id);
         var output=getResult();    
         if (output!=NaN){    
             output=output+=this.id;

@@ -8,7 +8,7 @@ console.log("working");
 var operator=document.querySelectorAll(".operator");
 for(var i=0;i<operator.length;i++){
     operator[i].addEventListener('click',function(){
-        alert("the operator clicked "+this.id);
+//         alert("the operator clicked "+this.id);
        
         if (this.id=="clearall"){  //for the clear button
           printHistory("")  
